@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<html lang="en" class="js-enabled">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Final project
+	</title>
+	<script src="jquery-1.11.2.js" type="text/javascript"></script>
+	<script src="mainpage.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="insatagram.css">
+
+</head>
+
+<body data-twttr-rendered="true">
+	<div id="constrain">
+	<div id="foreword" class="cleared" role="banner">
+		<nav>
+			<h2 class="home" id="top"><a href="http://#">finalproject.com</a></h2>
+			<ul>
+				<li class="sitemap"><a href="http://#">Sitemap</a></li>	
+				<li class="register"><a href="http://#">Register</a></li>
+				<li class="login"><a href="http://#">Login</a></li>
+			</ul>
+		</nav>
+	</div>	
+
+					
+<div id="main">
+	<div id="constrain-header" class="cleared">
+		<header>
+			<div id="header">
+				<hgroup>
+					<h2><a href="http://#" class="hide-text">Instagram image search</a></h2>
+					<h3>Search images in Instagram using geolocation</h3>
+				</hgroup>
+
+			<form method="get" id="header-search" class="search-form" role="search">
+				<fieldset>		
+					<input type="search" id="header-keyword" name="sp-q" placeholder="Search" value="" class="txt" maxlength="200">
+					<input type="search" id="header-distance" name="sp-q" placeholder="Distance m" value="" class="txt" maxlength="200">
+					<button type="button" id="header-search-submit">Go</button>
+					<a href="http://#" class="search-link">Advanced search</a>
+				</fieldset>
+			</form>
+			</div>
+		</header>			
+	</div>
+
+	<div id="constrain-content" class="cleared" role="main">
+	<table id="t01" onload="initialize(0,0,null)">
+		<tr>
+			<td>
+				
+				<table>
+				<tr>
+					<td><div id="map-canvas" class="popin" style="width: 480px; height: 300px"></div></td>
+				</tr>
+				<tr>
+					<td style="height: 300px; text-align: center;"><div id="info" class="col"></div></td>
+				</tr>
+				</table>
+			</td>
+			<td>
+				<div style="float:top;" id="img" class="col"></div>
+			</td>
+		</tr>
+		<tr><div id="content" class="col"></div></tr>
+	</table>
+		
+		
+	</div>
+
+</div>
+
+
+</span></div>
+</body></html>

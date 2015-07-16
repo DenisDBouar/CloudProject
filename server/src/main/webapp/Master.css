@@ -1,0 +1,44 @@
+
+body {
+    background: #ffffff url("scull2.jpg") no-repeat right top;
+    margin-right: 400px;
+    background-color: rgb(232,210,163);
+    background-size: 800px 800px;
+}
+#fbar {
+   position:absolute;
+   width:100%;
+   height:30px;   /* Height of the footer */
+  background: #f2f2f2;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid #c0c0c0;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+td a {
+    display:block;
+    text-decoration:none;
+    width:100%;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: #515151;
+    color: white;
+}
+table#t01	{
+    width: 700px;
+}
